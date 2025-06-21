@@ -1,3 +1,4 @@
+package com.example.calculator;
 import java.util.Scanner;
 
 public class InputHelper {
@@ -6,7 +7,7 @@ public class InputHelper {
     public int readInt(String prompt) {
         System.out.print(prompt);
         while (!scanner.hasNextInt()) {
-            System.out.print("Invalid input. " + prompt);
+            System.out.print("Invalid input.. " + prompt);
             scanner.next();
         }
         return scanner.nextInt();
