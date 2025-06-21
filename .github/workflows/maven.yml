@@ -26,6 +26,6 @@ jobs:
     #- name: Run tests
     #  run: mvn test
 
-    - name: Run application (optional)
-      run: mvn exec:java
+    #- name: Run application (optional)
+    #  run: mvn exec:java
       # Remove or comment this step if you don't want to run the app on every build
