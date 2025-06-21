@@ -5,6 +5,8 @@ public class InputHelper {
 
     public int readInt(String prompt) {
         System.out.print(prompt);
+                System.out.println("Please enter a valid");
+
         while (!scanner.hasNextInt()) {
             System.out.print("Invalid input. " + prompt);
             scanner.next();
