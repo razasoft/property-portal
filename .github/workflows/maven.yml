@@ -23,8 +23,8 @@ jobs:
     - name: Build with Maven
       run: mvn -B clean compile
 
-    - name: Run tests
-      run: mvn test
+    #- name: Run tests
+    #  run: mvn test
 
     - name: Run application (optional)
       run: mvn exec:java

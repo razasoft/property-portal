@@ -7,7 +7,7 @@ public class InputHelper {
     public int readInt(String prompt) {
         System.out.print(prompt);
         while (!scanner.hasNextInt()) {
-            System.out.print("Invalid input. change is done " + prompt);
+            System.out.print("Invalid input..change is done " + prompt);
             scanner.next();
         }
         return scanner.nextInt();
